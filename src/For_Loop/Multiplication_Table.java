@@ -8,6 +8,7 @@ public class Multiplication_Table
 		for(int i=1 ; i<=10;i++)
 		{
 			System.out.println(number+"X"+i+" = "+ (number*i));
+			//System.out.println(number+"*"+i+" = "+ (number*i));
 		}
 	}
 }
