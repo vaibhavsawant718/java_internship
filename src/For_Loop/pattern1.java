@@ -1,19 +1,24 @@
 package For_Loop;
 
 //import java.util.Iterator;
-
+//pattern1
+//*
+//**
+//***
+//****
+//*****
 public class pattern1 {
 
 	public static void main(String[] args) 
 	
 	{
-		int n=4;
+		int n=5;
 		for (int row = 1; row <=n; row++)
 		{
-			System.out.println("s");
+		
 			for (int col = 1; col <=row; col++)
 			{
-				System.out.println("*");
+				System.out.print("*");
 			}
 			System.out.println();
 		}
